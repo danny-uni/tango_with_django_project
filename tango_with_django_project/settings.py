@@ -86,6 +86,8 @@ DATABASES = {
     }
 }
 
+#login url
+LOGIN_URL = 'rango:login'
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
